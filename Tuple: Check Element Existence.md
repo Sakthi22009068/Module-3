@@ -10,8 +10,34 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
+
+x = ('a', 'b', 'c', 'n', 5, 8, 10)
+
+
+
+if 'n' in x:
+
+    print("'n' exists in the tuple")
+
+else:
+
+    print("'n' does not exist in the tuple")
+
+if 8 in x:
+
+    print("8 exists in the tuple")
+    
+else:
+
+    print("8 does not exist in the tuple")
+    
 Add code here
 
 ## Output
 
+'n' exists in the tuple
+
+8 exists in the tuple
+
 ## Result
+Thus, the Python program successfully checked the existence of elements 'n' and 8 within the tuple.
